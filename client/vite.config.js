@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:6009/",
+        target: "https://authentication-send-to-mail.onrender.com/",
         changeOrigin: true,
         secure: false,
       },
